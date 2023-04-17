@@ -1,2 +1,2 @@
 #!/bin/bash
-rm .js *
+find /data -name "*.js" -ok rm {} \;
